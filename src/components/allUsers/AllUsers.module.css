@@ -1,0 +1,81 @@
+.userActions {
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.userRecords h2 {
+  text-align: center;
+  font-size: 27px;
+  padding: 15px 0px;
+  font-weight: 600;
+}
+.customers {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+.customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #7847a0;
+  color: white;
+}
+.customers td,
+th {
+  border: 1px solid #ddd;
+  padding: 0px;
+}
+.customers td{
+  padding: 5px 10px;
+}
+
+.customers tr:nth-child(even) {
+  background-color: white;
+}
+/* .customers tr:hover {background-color: #ddd;} */
+.showDetail {
+  padding: 5px;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+  border: none;
+  margin-right: 15px;
+}
+.showDetail:hover {
+  background-color: #2d90b5;
+  color: white;
+}
+.deleteUser {
+  padding: 5px;
+  transition: 0.2s ease-in-out;
+  font-size: 16px;
+  border: none;
+ 
+  border-radius: 3px;
+}
+.deleteUser:hover {
+  background-color: #d11818;
+  color: white;
+
+}
+.pagination{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+
+
+}
+
+.pagination button{
+  padding: 10px 20px;
+  border-radius: 5px;
+ color: white;
+ background-color:#2d90b5;
+ font-size: 20px;
+ border: none;
+}
+
+.pagination .disablebtn{
+  cursor: no-drop;
+  background-color: #d11818;
+}

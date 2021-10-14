@@ -1,0 +1,103 @@
+.loginSection {
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: center;
+}
+
+.heading {
+  display: flex;
+  align-items: center;
+}
+
+.icons {
+  color: #583377;
+  height: 25px;
+  width: 25px;
+}
+.heading p {
+  margin-left: 3px;
+  color: #272626;
+}
+.formWrapper {
+  width: 400px;
+  height: 450px;
+  background-color: white;
+  padding: 60px 40px;
+}
+.formWrapper form {
+  padding-top: 20px;
+}
+.formHeading {
+  margin-bottom: 15px;
+  color: #272626;
+}
+.formHeading h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.inputWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+.inputWrapper input {
+  padding: 15px 0px 8px 0px;
+  border: none;
+  font-size: 18px;
+  color: #583377;
+  border-bottom: 1px solid gray;
+}
+.inputWrapper input:focus {
+  outline: none;
+}
+.inputWrapper input::placeholder {
+  font-size: 16px;
+}
+
+
+.submitBtnStyle input {
+  width: 100%;
+  padding: 9px;
+  font-size: 20px;
+  margin-top: 40px;
+  border: none;
+  transition: 0.3s ease-in-out;
+  color: white;
+  /* background-color: #10e0e1; */
+  background-color: #583377;
+}
+.submitBtnStyle input:hover{
+    background-color:#5a9ed1;
+    cursor: pointer;
+}
+.imageWrapper {
+  width: 400px;
+  height: 450px;
+text-align: center;
+  /* background-color: #10e0e1;
+   */
+   background-color: #583377;
+}
+.noAccount{
+  display: flex;
+  margin-top: 22px;
+  color: #272626;
+}
+.noAccount a{
+  color: #583377;
+  transition: 0.3s ease-in-out;
+  font-weight: 500;
+
+}
+.noAccount a:hover{
+  color: #5a9ed1;
+}
+
+
+.imageWrapper img {
+  width: 300px;
+  height: 350px;
+margin-top: 65px;
+object-fit: contain;
+}

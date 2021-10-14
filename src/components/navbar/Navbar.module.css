@@ -1,0 +1,31 @@
+.navbar{
+    height: 100px;
+    background-color: #5a9ed1;
+   color: #431469;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+.navbarHeader h2{
+   
+    font-weight: 600;
+
+
+}
+.navbarList{
+    display: flex;
+    align-items: center;
+    
+}
+
+.navbarList li{
+    list-style: none;
+    margin-right: 30px;
+}
+.navbarList li a{
+    text-decoration: none;
+    font-size: 26px;
+    color: #511f7a;
+    font-weight: 500;
+}
