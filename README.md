@@ -5,3 +5,4 @@ admin can create user
 admin can create manager 
 admin can delete user 
 admin sees all the user registered 
+Paginations
