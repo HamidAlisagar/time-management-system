@@ -1,6 +1,7 @@
 # time-management-system
-functionalities covered 
-Admin login
-user list  showing to admin
-manager sign up
-pagination
+1. functionalities covered 
+2. Admin login
+3. user list  showing to admin
+4. manager sign up
+5. pagination
+6. deletion
